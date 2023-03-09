@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <nav>
+        <h1>Trapel</h1>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#feature">Our Benefits</a>
+            <a href="#contact">Call US</a>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="intro" id="home">
+            <h1>Your Trusted Travel Agent's</h1>
+            <p>Your Happiness is our hapiness</p>
+        </div>
+        <div class="banner">
+            <img src="travel.png" alt="" width="500px" height="500px">
+
+            <div class="wrappper slide" id="slide">
+                <p>"Liburan menjadi menyenangkan bersama Trapel"</p>
+                <div class="testi">
+                    <span class="material-symbols-outlined arrow" onclick="slider(-1)">
+                        arrow_back_ios
+                    </span>
+
+                    <span class="material-symbols-outlined pers ">
+                        person
+                    </span>
+                    <div class="person slide">
+                        <h3>Imamul Muttaqin</h3>
+                        <p>Seorang Mahasiswa di Uin A-Raniry</p>
+                    </div>
+
+                    <span class="material-symbols-outlined arrow" onclick="slider(-1)">
+                        arrow_forward_ios
+                    </span>
+                </div>
+            </div>
+
+            <div class="wrappper slide" id="slide">
+                <p>"Aplikasinya cepat dan mudah untuk dipakai"</p>
+                <div class="testi">
+                    <span class="material-symbols-outlined arrow" onclick="slider(-1)">
+                        arrow_back_ios
+                    </span>
+
+                    <span class="material-symbols-outlined pers">
+                        person
+                    </span>
+                    <div class="person slide">
+                        <h3>Muhammad Haikal</h3>
+                        <p>Seorang Mahasiswa di Uin A-Raniry</p>
+                    </div>
+
+                    <span class="material-symbols-outlined arrow" onclick="slider(-1)">
+                        arrow_forward_ios
+                    </span>
+                </div>
+            </div>
+
+            <div class="wrappper slide" id="slide">
+                <p>"Banyak pilihan travel yang ada di aplikasi ini"</p>
+                <div class="testi">
+                    <span class="material-symbols-outlined arrow" onclick="slider(-1)">
+                        arrow_back_ios
+                    </span>
+
+                    <span class="material-symbols-outlined pers ">
+                        person
+                    </span>
+                    <div class="person slide">
+                        <h3>Fathur Rahmman</h3>
+                        <p>Seorang Mahasiswa di Uin A-Raniry</p>
+                    </div>
+                    
+                    <span class="material-symbols-outlined arrow" onclick="slider(-1)">
+                        arrow_forward_ios
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature" id="feature">
+            <h1>Fitur Yang Ditawarkan Website Ini</h1>
+            <div class="feature1">
+                <span class="material-symbols-outlined">
+                    devices
+                </span>
+                <div class="feature-text">
+                    <h3>Responsive & Mobile-Friendly Design</h3>
+                    <p>Website ini dilengkapi dengan responsive dan mobile frienly design sehingga penggunaan aplikasi ini tidak rumit</p>
+                </div>
+            </div>
+            <div class="feature1">
+                <span class="material-symbols-outlined">
+                    book_online
+                </span>
+                <div class="feature-text">
+                    <h3>Smart Booking Prosses</h3>
+                    <p>Proses Booking yang cepat dan mudah</p>
+                </div>
+            </div>
+            <div class="feature1">
+                <span class="material-symbols-outlined">
+                    travel_explore
+                </span>
+                <div class="feature-text">
+                    <h3>Unlimited Travel Packages</h3>
+                    <p>Paket Travel yang banyak dan bervariasi</p>
+                </div>
+            </div>
+            <div class="feature1">
+                <span class="material-symbols-outlined">
+                    payments
+                </span>
+                <div class="feature-text">
+                    <h3>Effective Payment Integration</h3>
+                    <p>dilengkapi dengan berbagai macam metode pembayaran</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h1>Contact Us</h1>
+
+            <form action="" id="form">
+                <label for="username">Username: </label>
+                <input type="text" id="username" placeholder="First and Last Name">
+
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+                
+                <label for="">Apa yang membuat anda tertarik: </label>
+                <textarea name="" id="massage" cols="30" rows="4"></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p class="copyright">Feril Ferdian © 2023</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;  
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    border-bottom: 1px solid black;
+    overflow-x: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav h1{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+nav .menu{
+    padding-right: 30px;
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    text-align: center;
+}
+
+nav .menu a{
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: .5s ease;
+}
+
+nav .menu a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:nth-child(1){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+a:nth-child(3){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p{
+    font-weight: 200;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.main .intro{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.main .intro p{
+    margin-top: 50px;
+}
+
+.main .banner p{
+    text-align: center;
+}
+
+.main .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.main .banner .testi{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .banner .testi .pers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    border-radius: 100%;
+}
+
+.main .banner .testi .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.main .banner .testi .person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 20px;
+}
+
+.main .banner .testi .person p{
+    text-align: start;
+}
+
+.slide{
+    animation-name: slider;
+    animation-duration: 1s;
+}
+
+@keyframes slider {
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 300px 0 300px;
+    border-bottom: 1px solid black;
+}
+
+.feature h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.feature1{
+    margin: 30px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.feature1 span{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    border-radius: 100%; 
+}
+
+.feature .feature1 .feature-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.feature .feature1 .feature-text p{
+    font-size: 15px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 300px 0 300px;
+}
+
+.contact h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact form {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea{
+    border: none;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+.contact form button{
+    padding: 10px 0;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contact form button:hover{
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
+
+.contact form label{
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    height: 6vh;
+}
+
+footer p{
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+
+
